@@ -1,0 +1,37 @@
+********************
+Ricardo Roman-Brenes
+22001125
+
+oct-2020
+Bilkent University
+CS525
+*********************
+
+Files on this directory belong to project 1 of CS525. Such files are:
+
+\
+|--readme: this file
+|--install: installation details
+|--makefile: GNU Make file for building and testing.
+|
+|--range-serial.c: serial implementation of part A.
+|--range-mpi-ppv1.c: parallel implementation v1 of part A.
+|--range-mpi-ppv2.c: parallel implementation v2 of part A.
+|--sort_aggr-serial.c: serial implementation of part B.
+|--sort_aggr-mpi.c: parallel implementation 2nd option of part B.
+|
+|--aux.c: auxiliary functions.
+|--headers.h: header file for common libraries.
+|
+|--input_range: test data for range programs.
+|--input_sort_aggr: test data for sort-aggregate programs.
+|
+|--{0-N}.log: log files for parallel debugging.
+
+In order to build the source code, use:
+make build
+
+In order to run the default tests, use:
+make run
+
+make clean will delete temporary files and binaries.
