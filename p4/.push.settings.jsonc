@@ -1,0 +1,29 @@
+// Push settings file - first generated on Thu Dec 31 2020 11:08:21 GMT+0300 (GMT+03:00).
+// Note: Optional items are commented out and can be uncommented if you wish to set them.
+// Preset environments are: prod, dev, stage. Custom environments (and their colours) can be created in settings.
+{
+	"env": "dev",
+	"dev": {
+		"service": "SFTP",
+		"options": {
+			// "timeZoneOffset": 0,
+			// "testCollisionTimeDiffs": true,
+			// "collisionUploadAction": null,
+			// "collisionDownloadAction": null,
+			// "followSymlinks": false,
+			// "reminder": true,
+			// "reminderTimeout": null,
+			"host": "donut.cs.bilkent.edu.tr",
+			// "port": 22,
+			"username": "ricardo",
+			"password": "1q\"W3e$R5t&Y",
+			// "privateKey": "",
+			// "keyPassphrase": "",
+			"root": "/home/ricardo/"
+			// "keepaliveInterval": 3000,
+			// "debug": false,
+			// "fileMode": "",
+			// "sshGateway": null
+		}
+	}
+}
